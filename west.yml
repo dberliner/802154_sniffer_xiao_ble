@@ -1,0 +1,13 @@
+# Example application-specific west.yml, using manifest imports.
+manifest:
+  remotes:
+    - name: ncs
+      url-base: https://github.com/nrfconnect
+  projects:
+    - name: nrf
+      remote: ncs
+      repo-path: sdk-nrf
+      revision: v3.0.2
+      import: true
+  self:
+    path: 802154_sniffer_xiao

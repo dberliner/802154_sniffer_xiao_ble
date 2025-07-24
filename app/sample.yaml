@@ -1,0 +1,15 @@
+sample:
+  description: IEEE 802.15.4 Sniffer sample
+  name: IEEE 802.15.4 Sniffer
+tests:
+  sample.peripheral.802154_sniffer:
+    sysbuild: true
+    build_only: true
+    integration_platforms:
+      - xiao_ble/nrf52840
+    platform_allow:
+      - xiao_ble/nrf52840
+    tags:
+      - ci_build
+      - sysbuild
+      - ci_samples_peripheral_802154
