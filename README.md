@@ -1,16 +1,10 @@
+# IEEE 802.15.4 Sniffer for Seeed Xiao BLE
+
 This is a port of Nordics [802154_sniffer example](https://github.com/nrfconnect/sdk-nrf/tree/main/samples/peripheral/802154_sniffer) for the Seeed Xiao BLE board. Nordic doen't accept changes for external boards so this is maintained on its own repo.
 
 This example supports either the default Adafruit bootloader used for USB loading or being a standalone firmware flashed by an external debugger.
 
 Idential sections to the examples Readme are ommitted for brevity. This port contains no functional changes so refer to that documentation for regular usage.
-
-# IEEE 802.15.4 Sniffer
-
-.. contents::
-   :local:
-   :depth: 2
-
-The IEEE 802.15.4 Sniffer listens to a selected IEEE 802.15.4 channel (2.4GHz O-QPSK with DSSS) and integrates with the nRF 802.15.4 sniffer extcap for Wireshark.
 
 ## Requirements
 
